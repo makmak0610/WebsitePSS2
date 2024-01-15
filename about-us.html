@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSS About</title>
+
+    <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/1499265096006000640/ZhEnSTch_400x400.jpg"
+        type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+
+    <!-- Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <!-- <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 599px)"></head> -->
+</head>
+
+<body>
+
+
+    <!-- nav bar -->
+    <nav id="nav">
+        <!-- <h3 class="logo " ><img src="./img/pss black logo.png" alt="pss" height="58px"></h3> -->
+        <div class="logo" onclick="jumpTo('index.html')"> <img src="./img/pss.png" alt="pss" height="90px"> </div>
+        <div class="nav-part2">
+
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="about-us.html">About Us</a>
+                <a href="services.html">Our Services</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+
+            <div class="nav-icon">
+
+                <i class="ri-menu-line"></i>
+                <i class="ri-close-line"></i>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- drawer -->
+    <div class="nav-drawer">
+        <div>
+            <a href="index.html">Home</a>
+            <a href="about-us.html">About Us</a>
+            <a href="services.html">Our Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </div>
+
+    <div id="cursor"></div>
+
+    <!-- Main Page -->
+    <div class="main">
+
+        <!-- Page 1 -->
+        <div id="about-page-one">
+
+            <div class="page-title" style="display: flex;width: 100%; justify-content: space-between; padding: 2rem;">
+
+                <div>
+                    <h1 class="h1-first">About</h1>
+                    <h1 class="h1-second">US</h1>
+                </div>
+
+                <div>
+                    <video src="./img/pss-video.mp4" height="500px" width="288px" loop muted autoplay style="display: block; border-radius: 2rem; box-sizing: border-box; object-fit: cover; justify-self: right;"></video>
+                </div>
+            </div>
+
+            <div class="about-us-paragraph">
+                <p>
+
+                    Welcome to PSS, a leading security solutions provider committed to safeguarding what matters most.
+                    At Our Organisation, we believe in more than just security – we believe in peace of mind. Our
+                    mission is to deliver comprehensive, reliable, and innovative security services tailored to meet the
+                    unique needs of our clients.
+                    <br>
+                    PSS has a heritage of more than 26 years and through Prince Security Service and Pooja Security
+                    Service, it has been a journey since then. The
+                    versatility of the company can been seen through it's operations in various orginations. Our
+                    clientele can testify our Adaptability in various intitutions.
+                </p>
+                <br>
+                <p>PSS started with a single employee, and has grown spectacularly to our present. Today, PSS
+                    has a strong security background, Branches and Area Offices across Delhi.</p>
+            </div>
+
+            <div class="nums">
+
+                <div class="num">
+                    <h2>71+</h2>
+                    <!-- <h3>Current Clientele</h3> -->
+                    <h3>Current Client</h3>
+                </div>
+                <div class="num">
+                    <h2>110+</h2>
+                    <h3>Client Served</h3>
+                </div>
+                <div class="num">
+                    <h2>200</h2>
+                    <h3>Our Employees</h3>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Page 2 -->
+        <div id="about-page-2">
+            <h2>Why Choose Us</h2>
+
+            <div class="content">
+                <div>
+                    <svg id="support" width="84" height="56" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M3.77762 11.9424C2.8296 10.2893 2.37185 8.93948 2.09584 7.57121C1.68762 5.54758 2.62181 3.57081 4.16938 2.30947C4.82345 1.77638 5.57323 1.95852 5.96 2.6524L6.83318 4.21891C7.52529 5.46057 7.87134 6.08139 7.8027 6.73959C7.73407 7.39779 7.26737 7.93386 6.33397 9.00601L3.77762 11.9424ZM3.77762 11.9424C5.69651 15.2883 8.70784 18.3013 12.0576 20.2224M12.0576 20.2224C13.7107 21.1704 15.0605 21.6282 16.4288 21.9042C18.4524 22.3124 20.4292 21.3782 21.6905 19.8306C22.2236 19.1766 22.0415 18.4268 21.3476 18.04L19.7811 17.1668C18.5394 16.4747 17.9186 16.1287 17.2604 16.1973C16.6022 16.2659 16.0661 16.7326 14.994 17.666L12.0576 20.2224Z"
+                            stroke="#141B34" stroke-width="1.5" stroke-linejoin="round" />
+                        <path
+                            d="M12 7H12.8571C13.2612 7 13.4632 7 13.5888 7.12204C13.7143 7.24408 13.7143 7.4405 13.7143 7.83333C13.7143 8.61901 13.7143 9.01184 13.4632 9.25592C13.2723 9.44155 12.9929 9.486 12.5145 9.49665C12.2692 9.50211 12.1465 9.50484 12.0732 9.5777C12 9.65056 12 9.76704 12 10V11.1667C12 11.5595 12 11.7559 12.1255 11.878C12.2511 12 12.4531 12 12.8571 12H13.7143M18 7V9.5M18 9.5H16.5429C16.2196 9.5 16.058 9.5 15.9576 9.40237C15.8571 9.30474 15.8571 9.1476 15.8571 8.83333V7M18 9.5V12"
+                            stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M10 4.30518C10.089 4.20518 10.1815 4.10717 10.2774 4.01129C12.9591 1.32957 17.307 1.32957 19.9887 4.01129C22.6704 6.693 22.6704 11.0409 19.9887 13.7226C19.8928 13.8185 19.7948 13.911 19.6948 14"
+                            stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+                    </svg>
+
+                    <h3>24/7 Support</h3>
+                    <p> Service sactisfaction is at the heart of everything we do to secure you and your belongings. PSS
+                        Securitas customer service is recommandable by our clients.</p>
+                </div>
+
+                <div>
+                    <svg id="expert" width="84" height="56" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12.25 21.829C8.43598 21.829 5.17798 21.252 5.17798 18.942C5.17798 16.632 8.41498 14.531 12.25 14.531C16.064 14.531 19.322 16.612 19.322 18.921C19.322 20.547 17.716 21.325 15.427 21.643"
+                            stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M12.2496 2.17102C9.74658 2.17102 7.71658 4.20002 7.71658 6.70402C7.70758 9.19802 9.72358 11.228 12.2176 11.237H12.2496C14.7526 11.237 16.7826 9.20702 16.7826 6.70402C16.7826 5.20602 16.0566 3.87802 14.9366 3.05302"
+                            stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <h3>Expert Employees</h3>
+                    <p>We have a expertly curated mechanism that trains the employees in a manner that makes our
+                        employees extensively efficient in our domain to Meticulously secure the premises.</p>
+                </div>
+
+                <div>
+                    <svg id="verified" width="84" height="56" viewBox="0 0 24 25" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M14.2618 4.09937C13.1956 3.03312 12.6625 2.5 12 2.5C11.3375 2.5 10.8044 3.03312 9.73815 4.09937C9.09832 4.7392 8.46427 5.03626 7.55208 5.03626C6.7556 5.03626 5.62243 4.88178 5 5.50944C4.38249 6.13214 4.53628 7.26065 4.53628 8.05206C4.53628 8.96428 4.2392 9.59832 3.59935 10.2382C2.53312 11.3044 2.00001 11.8375 2 12.5C2.00002 13.1624 2.53314 13.6956 3.59938 14.7618C4.31616 15.4786 4.53628 15.9414 4.53628 16.9479C4.53628 17.7444 4.38181 18.8776 5.00949 19.5C5.63218 20.1175 6.76068 19.9637 7.55206 19.9637C8.52349 19.9637 8.99128 20.1537 9.68457 20.847C10.2749 21.4374 11.0663 22.5 12 22.5C12.9337 22.5 13.7251 21.4374 14.3154 20.847C15.0087 20.1537 15.4765 19.9637 16.4479 19.9637C17.2393 19.9637 18.3678 20.1175 18.9905 19.5M18.9905 19.5C19.6182 18.8776 19.4637 17.7444 19.4637 16.9479C19.4637 15.9414 19.6838 15.4786 20.4006 14.7618C21.4669 13.6956 22 13.1624 22 12.5C22 11.8375 21.4669 11.3044 20.4006 10.2382M18.9905 19.5H19"
+                            stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M8 10.8077C8 10.8077 10.25 10.5 12 14.5C12 14.5 17.0588 4.5 22 2.5" stroke="#141B34"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <h3>Verified Service</h3>
+                    <p>PSS Securitas customer service makes customers happy. Service is at the heart of everything we do
+                        to secure you and your belongings</p>
+                </div>
+
+                <div>
+                    <svg id="secured" width="84" height="56" viewBox="0 0 24 25" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M11.9982 2.5C8.99043 2.5 7.04018 4.51899 4.73371 5.2549C3.79589 5.55413 3.32697 5.70374 3.1372 5.91465C2.94743 6.12556 2.89186 6.43375 2.78072 7.05013C1.59143 13.646 4.1909 19.744 10.3903 22.1175C11.0564 22.3725 11.3894 22.5 12.0015 22.5C12.6135 22.5 12.9466 22.3725 13.6126 22.1175C19.8116 19.7439 22.4086 13.646 21.219 7.05013C21.1078 6.43364 21.0522 6.1254 20.8624 5.91449C20.6726 5.70358 20.2037 5.55405 19.2659 5.25499C16.9585 4.51915 15.0061 2.5 11.9982 2.5Z"
+                            stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M9 13.5C9 13.5 10 13.5 11 15.5C11 15.5 14.1765 10.5 17 9.5" stroke="#141B34"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+
+                    <h3>Secured Service</h3>
+                    <p>Our employees work in a manner that is based on above industry level practicies. </p>
+                </div>
+
+                <div>
+                    <svg width="84" height="56" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M4.54697 11.7317H10.547C10.8122 11.7317 11.0665 11.6264 11.2541 11.4388C11.4416 11.2513 11.547 10.9969 11.547 10.7317V4.73172C11.547 4.4665 11.4416 4.21215 11.2541 4.02461C11.0665 3.83708 10.8122 3.73172 10.547 3.73172H4.54697C4.28175 3.73172 4.0274 3.83708 3.83986 4.02461C3.65232 4.21215 3.54697 4.4665 3.54697 4.73172V10.7317C3.54697 10.9969 3.65232 11.2513 3.83986 11.4388C4.0274 11.6264 4.28175 11.7317 4.54697 11.7317ZM5.54697 5.73172H9.54697V9.73172H5.54697V5.73172ZM20.547 3.73172H14.547C14.2818 3.73172 14.0274 3.83708 13.8399 4.02461C13.6523 4.21215 13.547 4.4665 13.547 4.73172V10.7317C13.547 10.9969 13.6523 11.2513 13.8399 11.4388C14.0274 11.6264 14.2818 11.7317 14.547 11.7317H20.547C20.8122 11.7317 21.0665 11.6264 21.2541 11.4388C21.4416 11.2513 21.547 10.9969 21.547 10.7317V4.73172C21.547 4.4665 21.4416 4.21215 21.2541 4.02461C21.0665 3.83708 20.8122 3.73172 20.547 3.73172ZM19.547 9.73172H15.547V5.73172H19.547V9.73172ZM10.547 21.7317C10.8122 21.7317 11.0665 21.6264 11.2541 21.4388C11.4416 21.2513 11.547 20.9969 11.547 20.7317V14.7317C11.547 14.4665 11.4416 14.2121 11.2541 14.0246C11.0665 13.8371 10.8122 13.7317 10.547 13.7317H4.54697C4.28175 13.7317 4.0274 13.8371 3.83986 14.0246C3.65232 14.2121 3.54697 14.4665 3.54697 14.7317V20.7317C3.54697 20.9969 3.65232 21.2513 3.83986 21.4388C4.0274 21.6264 4.28175 21.7317 4.54697 21.7317H10.547ZM5.54697 15.7317H9.54697V19.7317H5.54697V15.7317ZM18.547 14.7317H16.547V16.7317H14.547V18.7317H16.547V20.7317H18.547V18.7317H20.547V16.7317H18.547V14.7317Z"
+                            fill="black" />
+                    </svg>
+
+
+                    <h3>Customized Solutions</h3>
+                    <p>
+                        We understand that every client has unique security needs. Our team works closely with each
+                        client to develop tailored security plans that address specific requirements and concerns.
+                    </p>
+
+                </div>
+
+                <div>
+                    <svg width="84" height="56" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M20.886 9.264C19.384 7.764 16.945 7.764 15.411 9.264L9.281 15.395C9.10017 15.5785 8.9988 15.8259 8.9988 16.0835C8.9988 16.3412 9.10017 16.5885 9.281 16.772C9.46462 16.9523 9.71167 17.0533 9.969 17.0533C10.2263 17.0533 10.4734 16.9523 10.657 16.772L16.787 10.641C16.9658 10.4623 17.178 10.3205 17.4116 10.2238C17.6452 10.1271 17.8955 10.0774 18.1484 10.0774C18.4012 10.0775 18.6515 10.1273 18.885 10.2241C19.1186 10.3209 19.3308 10.4627 19.5095 10.6415C19.6882 10.8203 19.83 11.0325 19.9267 11.2661C20.0234 11.4997 20.0731 11.7501 20.0731 12.0029C20.0731 12.2557 20.0232 12.506 19.9264 12.7395C19.8296 12.9731 19.6878 13.1853 19.509 13.364L13.472 19.399C14.223 20.149 15.443 20.149 16.195 19.399L20.855 14.739C22.386 13.205 22.386 10.766 20.886 9.264ZM18.822 11.297C18.6384 11.1167 18.3913 11.0157 18.134 11.0157C17.8767 11.0157 17.6296 11.1167 17.446 11.297L11.312 17.459C10.561 18.209 9.342 18.209 8.592 17.459C8.216 17.084 7.59 17.084 7.215 17.459C6.84 17.834 6.84 18.461 7.215 18.834C8.717 20.336 11.157 20.336 12.69 18.834L18.821 12.705C19.196 12.299 19.196 11.672 18.822 11.297ZM16.787 5.168C15.286 3.66601 12.846 3.66601 11.312 5.168L5.181 11.297C5.00053 11.4803 4.89938 11.7273 4.89938 11.9845C4.89938 12.2418 5.00053 12.4887 5.181 12.672C5.36441 12.8531 5.61177 12.9546 5.8695 12.9546C6.12723 12.9546 6.37459 12.8531 6.558 12.672L12.726 6.543C13.0884 6.18278 13.5785 5.98058 14.0895 5.98058C14.6004 5.98058 15.0906 6.18278 15.453 6.543C15.6366 6.72329 15.8837 6.82431 16.141 6.82431C16.3983 6.82431 16.6454 6.72329 16.829 6.543C17.181 6.13701 17.181 5.543 16.805 5.168H16.787ZM14.724 7.199C14.5409 7.01776 14.2936 6.91609 14.036 6.91609C13.7784 6.91609 13.5311 7.01776 13.348 7.199L7.217 13.363C6.85493 13.7223 6.36555 13.9239 5.8555 13.9239C5.34545 13.9239 4.85606 13.7223 4.494 13.363C4.13329 13.0017 3.93069 12.512 3.93069 12.0015C3.93069 11.491 4.13329 11.0013 4.494 10.64L10.531 4.601C10.1696 4.24084 9.68021 4.0386 9.17 4.0386C8.65979 4.0386 8.17038 4.24084 7.809 4.601L3.118 9.264C1.617 10.766 1.617 13.205 3.118 14.739C4.619 16.241 7.058 16.241 8.593 14.739L14.722 8.608C15.099 8.2 15.099 7.575 14.722 7.2L14.724 7.199Z"
+                            fill="black" />
+                    </svg>
+
+                    <h3>Responsive Support</h3>
+                    <p>
+                        Security concerns can arise at any time. Our dedicated customer support team is available 24/7
+                        to address inquiries, provide assistance, and ensure a rapid response to any security-related
+                        issues.
+                    </p>
+
+                </div>
+
+                <div style="width: 100%; display: flex; flex-direction: column; align-items: center;">
+                    <svg width="84" height="56" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.24487 14.7815L10.238 10.8913L13.6522 13.5732L16.5813 9.79291" stroke="black"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M19.9954 6.12244C21.057 6.12244 21.9176 5.26184 21.9176 4.20024C21.9176 3.13864 21.057 2.27805 19.9954 2.27805C18.9338 2.27805 18.0732 3.13864 18.0732 4.20024C18.0732 5.26184 18.9338 6.12244 19.9954 6.12244Z"
+                            stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M14.9245 3.12015H7.65676C4.64532 3.12015 2.77805 5.25287 2.77805 8.26431V16.3467C2.77805 19.3581 4.60871 21.4817 7.65676 21.4817H16.2609C19.2723 21.4817 21.1396 19.3581 21.1396 16.3467V9.30779"
+                            stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+
+
+                    <h3>Skilled Personnel</h3>
+                    <p>
+                        Our security personnel undergo rigorous training and continuous education to ensure they are
+                        well-equipped to handle diverse security challenges. We take pride in having a team of dedicated
+                        professionals who are committed to maintaining the highest standards of service. </p>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 3 -->
+        <div id="about-page-three">
+            <h2>Our Services</h2>
+            <div class="content">
+                <!-- <p>The security services offering ranges from solution designing to deployment of security guards, security
+                    officers, armed guards, firemen, dog handlers, consultants, investigators, housekeeping and command and
+                    control center employees. Our key customers include leading businesses in a wide range of sectors across
+                    banking and financial services, IT/ITES and telecom, automobile, steel and heavy industries,
+                    governmental as well as public sector undertakings, hospitality and real estate, utilities, educational
+                    institutions, healthcare, consumer goods, engineering and construction.</p> -->
+                <br>
+                <p>
+                    As your trusted security partner, we invite you to explore the details of each service on our
+                    dedicated services page. Should you have any inquiries or require a personalized consultation,
+                    please don't hesitate to contact us. Your security is our priority. Click the buttons below to get
+                    in touch or delve deeper into our comprehensive services.
+                </p>
+                <div class="btns">
+                    <button id="btn-contact" onclick="jumpTo('contact.html')">Contact Us</button>
+                    <button id="btn-all-services" onclick="jumpTo('services.html')">Explore Services<i
+                            class="ri-arrow-right-s-line"></i> </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 4 -->
+        <div id="about-page-four">
+            <h2>Our Clients</h2>
+
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./img/clients/pss-client1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/clients/pss-client2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img//clients/pss-client3.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/clients/pss-client4.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/clients/pss-client5.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/clients/pss-client6.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/clients/pss-client7.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/clients/shresth.jpg" alt=""></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="box-container">
+
+                <div class="box">
+                    <div>
+                        <h3>Quick Links</h3>
+                        <a href="index.html"><i class="ri-arrow-right-line"></i></i> Home</a>
+                        <a href="about-us.html"><i class="ri-arrow-right-line"></i></i> About</a>
+                        <a href="services.html"><i class="ri-arrow-right-line"></i></i> Services</a>
+                        <a href="gallery.html"><i class="ri-arrow-right-line"></i></i> Gallery</a>
+                        <a href="contact.html"><i class="ri-arrow-right-line"></i></i> Contact</a>
+                    </div>
+                </div>
+
+
+
+                <div class="box">
+                    <div>
+
+                        <h3>Social Links</h3>
+                        <a href="#"><i class="ri-facebook-fill"></i>Facebook</a>
+                        <a href="#"><i class="ri-twitter-x-line"></i> Platform</a>
+                        <a href="#"><i class="ri-instagram-line"></i> Instagram</a>
+                        <a href="#"><i class="ri-linkedin-box-line"></i> Linkedin</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div>
+
+                        <h3>Contact Info</h3>
+                        <a href="#"><i class="ri-phone-fill"></i> +91 9212584589</a>
+                        <a href="#"><i class="ri-phone-fill"></i> +91 9212170492</a>
+                        <a href="#"><i class="ri-mail-fill"></i> mpverma0502@gmail.com</a>
+                        <a href="#" style="display: flex;">
+                            <i class="ri-map-pin-fill"></i>
+                            <div style="margin-left: 2px;">
+                                WP-504-A, Shiv Market, Wazirpur, Ashok Vihar, Delhi -110052, India
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="foot-copyright-container">
+                <p>SHRESTH TECHNOLOGIES</p>
+                <p> &copy Copyright 2024 PSS</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+
+        function initializeSwiper() {
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: "auto",
+                centeredSlides: true,
+                spaceBetween: 30,
+                loop: true,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+            });
+        }
+
+        initializeSwiper();
+
+
+    </script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+    <script>
+        function pageTitleAnimation() {
+
+            // Home Page
+            gsap.from("#about-page-one .h1-first", {
+                y: 100,
+                opacity: 0,
+                delay: 0.5,
+                duration: 0.8,
+                stagger: 0.4,
+            })
+
+            gsap.from("#about-page-one .h1-second", {
+                y: 100,
+                opacity: 0,
+                delay: 0.8,
+                duration: 0.8,
+                stagger: 0.4,
+            })
+
+
+            gsap.from(".about-us-paragraph", {
+                y: 100,
+                opacity: 0,
+                delay: 1.2,
+                duration: 0.8,
+                stagger: 0.4,
+            })
+
+            gsap.from(".page-title video", {
+                y: 100,
+                opacity: 0,
+                delay: 1.2,
+                duration: 0.8,
+                stagger: 0.4,
+            })
+        }
+
+        pageTitleAnimation();
+
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>PSS - Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+
+  <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/1499265096006000640/ZhEnSTch_400x400.jpg"
+    type="image/x-icon">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+
+  <!-- Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/gallery.css">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- Swiper styles -->
+  <style>
+    .swiper {
+      width: 100%;
+      height: 65vh;
+      /* aspect-ratio: attr(width) / attr(height); Set the aspect ratio based on image's width and height attributes */
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #f7f7f7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    #page3 .swiper {
+      width: 240px;
+      height: 377px;
+    }
+
+    .mySwiper2 .swiper-slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 18px;
+      font-size: 22px;
+      font-weight: bold;
+      /* color: #4e83f3; */
+    }
+  </style>
+</head>
+
+<body>
+
+  
+    <!-- nav bar -->
+    <nav id="nav">
+      <!-- <h3 class="logo " ><img src="./img/pss black logo.png" alt="pss" height="58px"></h3> -->
+      <div class="logo"  onclick="jumpTo('index.html')" > <img src="./img/pss.png" alt="pss" height="90px"> </div>
+      <div class="nav-part2">
+
+          <div class="links">
+              <a href="index.html">Home</a>
+              <a href="about-us.html">About Us</a>
+              <a href="services.html">Our Services</a>
+              <a href="gallery.html">Gallery</a>
+              <a href="contact.html">Contact Us</a>
+          </div>
+
+          <div class="nav-icon">
+
+              <i class="ri-menu-line"></i>
+              <i class="ri-close-line"></i>
+
+          </div>
+      </div>
+  </nav>
+
+  <!-- drawer -->
+  <div class="nav-drawer">
+      <div>
+          <a href="index.html">Home</a>
+              <a href="about-us.html">About Us</a>
+              <a href="services.html">Our Services</a>
+              <a href="gallery.html">Gallery</a>
+              <a href="contact.html">Contact Us</a>
+      </div>
+  </div>
+
+  <div class="main">
+
+    <!-- page1 -->
+    <div id="page1">
+      <div class="page-title" style="display: flex;width: 100%; justify-content: space-between; padding: 2rem;">
+
+        <div>
+            <h1 class="h1-first">Our</h1>
+            <h1 class="h1-second">Gallery</h1>
+        </div>
+
+        <div>
+            <video src="./img/pss-video.mp4" height="500px" width="288px" loop muted autoplay style="display: block; border-radius: 2rem; box-sizing: border-box; object-fit: cover; justify-self: right;"></video>
+        </div>
+    </div>
+    </div>
+
+    <!-- page2 -->
+    <div id="gallery-page2">
+
+      <div class="image-grid">
+        <img class="image-grid-col-2 image-grid-row-2" src="./img/guard-team.jpeg" alt="pss group">
+        <img src="./img/pass-hotel-guard.jpeg" alt="architecture">
+        <img src="./img/home-guard.jpeg" alt="architecture">
+        <img src="./img/night-guard.jpeg" alt="architecture">
+        <img src="./img/pss-one-guard.jpeg" alt="architecture">
+      </div>
+
+    </div>
+
+    <!-- Divider -->
+    <div class="divider">
+
+      <!-- <span style="font-weight: bolder; font-size: 3rem;">UNIFORM</span>
+      <span style="font-weight: bolder; font-size: 3rem;">ID CARD</span> -->
+      <span>UNIFORM</span>
+      <span>ID CARD</span>
+      <div></div>
+    </div>
+
+    <div id="page3" style=" display: flex; justify-content: space-around;">
+      <!-- Content div -->
+      <!-- <div class="content1">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti eveniet provident vitae minus maxime incidunt
+        sapiente quisquam amet in nulla dicta maiores laborum necessitatibus iusto sint, iste quo voluptates ipsa
+        dolorum perferendis. Cumque facere qui fuga, consequuntur exercitationem ea, praesentium libero vel consectetur
+        voluptatibus rem tempora omnis alias. Atque, illum.
+      </div> -->
+
+      <!-- Card Swiper Div uniform -->
+      <div class="content2" style="margin: 2rem;">
+        <div class="swiper mySwiper2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./img/pass-hotel-guard.jpeg" alt="Pss hotel gurad"></div>
+            <div class="swiper-slide"><img src="./img/night-guard.jpeg" alt="PSS Night Guard"></div>
+            <div class="swiper-slide"><img src="./img/pss-guard-satyam.jpeg" alt="Pss Security Guard"></div>
+            <div class="swiper-slide"><img src="./img/guard-team.jpeg" alt="PSS Guard Team"></div>
+            <div class="swiper-slide"><img src="./img/morning-guard.jpeg" alt="PSS Morning Guard"></div>
+            <div class="swiper-slide"><img src="./img/home-guard.jpeg" alt="PSS Home Guard"></div>
+            <div class="swiper-slide"><img src="./img/pss-guard.jpeg" alt="PSS Guard"></div>
+            <div class="swiper-slide"><img src="./img/pss-one-guard.jpeg" alt="PSS One Guard"></div>
+            <div class="swiper-slide"><img src="./img/pss-security-guard.jpeg" alt="PSS Security Guard"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card Swiper Div  id -->
+      <div class="content2" style="margin: 2rem;">
+        <div class="swiper mySwiper2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./img/pss-id-card.png" alt="Pss id card"></div>
+            <div class="swiper-slide"><img src="./img/pss id card.png" alt="PSS id card"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="box-container">
+
+        <div class="box">
+          <div>
+            <h3>Quick Links</h3>
+            <a href="index.html"><i class="ri-arrow-right-line"></i></i> Home</a>
+            <a href="about-us.html"><i class="ri-arrow-right-line"></i></i> About</a>
+            <a href="services.html"><i class="ri-arrow-right-line"></i></i> Services</a>
+            <a href="gallery.html"><i class="ri-arrow-right-line"></i></i> Gallery</a>
+            <a href="contact.html"><i class="ri-arrow-right-line"></i></i> Contact</a>
+          </div>
+        </div>
+
+
+
+        <div class="box">
+          <div>
+
+            <h3>Social Links</h3>
+            <a href="#"><i class="ri-facebook-fill"></i>Facebook</a>
+            <a href="#"><i class="ri-twitter-x-line"></i> Platform</a>
+            <a href="#"><i class="ri-instagram-line"></i> Instagram</a>
+            <a href="#"><i class="ri-linkedin-box-line"></i> Linkedin</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div>
+
+            <h3>Contact Info</h3>
+            <a href="#"><i class="ri-phone-fill"></i> +91 9212584589</a>
+            <a href="#"><i class="ri-phone-fill"></i> +91 9212170492</a>
+            <a href="#"><i class="ri-mail-fill"></i> mpverma0502@gmail.com</a>
+            <a href="#" style="display: flex;">
+              <i class="ri-map-pin-fill"></i>
+              <div style="margin-left: 2px;">
+                WP-504-A, Shiv Market, Wazirpur, Ashok Vihar, Delhi -110052, India
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="foot-copyright-container">
+        <p>SHRESTH TECHNOLOGIES</p>
+        <p> &copy Copyright 2024 PSS</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- locomotive JS -->
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+
+  <!-- Gsap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+    integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+
+  <!-- Scrolling JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+    integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+
+
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+
+    //  Initialize Swiper 
+    function initializeSwiper() {
+
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        breakpoints: {
+          "@0.00": {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          "@0.75": {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          "@1.00": {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          "@1.50": {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+        },
+      });
+
+    }
+
+    initializeSwiper();
+
+    //  Initialize Card Swiper
+    function initializeCardSwiper() {
+      var swiper2 = new Swiper(".mySwiper2", {
+        effect: "cards",
+        grabCursor: true,
+        rewind: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        }
+      });
+    }
+
+    initializeCardSwiper();
+
+    // Gsap for first swiper
+    function swiperGsap() {
+      gsap.from("#page2 .swiper", {
+        y: 100,
+        opacity: 0,
+        delay: 0.5,
+        duration: 0.8,
+        stagger: 0.4,
+      })
+
+      
+      gsap.from(".page-title video", {
+                y: 100,
+                opacity: 0,
+                delay: 1.2,
+                duration: 0.8,
+                stagger: 0.4,
+            })
+    }
+
+    swiperGsap();
+
+  </script>
+
+  <!-- Custom JS -->
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
